@@ -1,0 +1,26 @@
+/* You can add global styles to this file, and also import other style files */
+
+// @font-face {
+//   font-family: 'Inter' !important;
+//   src: url('../font/Inter-Light.ttf');
+// }
+@font-face {
+  font-family: 'Inter';
+  src: url('../font/Inter-Light.ttf');
+}
+
+body , html {
+  padding: 0 !important;
+  margin: 0 !important;
+  height: 100% !important;
+  font-family: Inter !important;
+}
+
+body {
+  overflow: hidden !important;
+  @media only screen and (min-width: 450px) {
+      width: 400px !important;
+      margin: auto !important;
+      background-color: #ccc;
+  }
+}

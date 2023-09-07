@@ -1,0 +1,33 @@
+
+<div class="main-wrapper">
+
+  <div class="player-wrapper">
+    <div class="track-play-toggle">
+      <img
+      (click)="togglePlay()"
+      class="toggle-play-btn"
+      src="../../assets/imges/{{isPlay ? 'pause-btn' : 'play-btn'}}.svg" width="24px">
+      <img
+      class="track-cover"
+      src="../../assets/imges/music-cover/music-cover.png">
+    </div>
+
+    <!-- #start track details -->
+   <div class="track-details">
+    <p class="track-info">
+      Kayhan Kalhor & Rembrandt Frerichs Trio
+    </p>
+    <p class="track-name">
+      04 - Dawn  IV. Still
+    </p>
+   </div>
+       <!-- #end track details -->
+  </div>
+
+</div>
+
+
+<audio controls id="musicPlayerId">
+  <source src="../../assets/musics/Parvaz.mp3" type="audio/mp3">
+  Your browser does not support the audio tag.
+</audio>
